@@ -1,3 +1,4 @@
+<!--<script ✂prettier:content✂="CiAgaW1wb3J0IGFuYWx5dGljc1RyYWNraW5nIGZyb20gIi4uL3V0aWxzL2FuYWx5dGljcyI7Cg==" ✂prettier:content✂="e30=">{}</script>-->
 <style>
   .Header {
     background-color: #fafbfc;
@@ -58,14 +59,17 @@
         <ul>
           <li>
             <a href="/" target="_blank" rel="noreferrer">
+              <!-- on:click={analyticsTracking('GitHub')} -->
               <img src="github-icon.png" alt="GitHub" /></a>
           </li>
           <li>
             <a href="/" target="_blank" rel="noreferrer">
+              <!-- on:click={analyticsTracking('Twitter')} -->
               <img src="twitter-icon.png" alt="Twitter" /></a>
           </li>
           <li>
             <a href="/" target="_blank" rel="noreferrer">
+              <!-- on:click={analyticsTracking('LinkedIn')} -->
               <img src="linkedin-icon.png" alt="LinkedIn" /></a>
           </li>
         </ul>
