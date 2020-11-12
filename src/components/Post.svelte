@@ -1,4 +1,5 @@
 <script>
+  import formatIsoTime from "../utils/formatIsoTime";
   import readingTime from "../utils/readingTime";
   import randomEmoji from "../utils/randomEmoji";
   export let post;
@@ -61,7 +62,8 @@
           </a>
         </h2>
         <p>
-          <time datetime={post.createdAt}> {post.createdAt} </time>
+          <time
+            datetime={post.createdAt}>📅{formatIsoTime(post.createdAt)}</time>
           <span class="dot">.</span>
           <span>{readingTime(post.html)}</span>
         </p>
