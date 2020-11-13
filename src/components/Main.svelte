@@ -4,6 +4,7 @@
 
 <style>
   .Main-container {
+    min-height: 78.5vh;
     display: grid;
     grid-template-columns: minmax(auto, 1024);
     justify-content: center;
